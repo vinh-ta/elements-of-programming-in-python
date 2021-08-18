@@ -152,7 +152,7 @@ Answer: 56
 <br>
 
 **Bitwise right shift** - Moves the bits to the right by a number places specified by the second
-operand. The trailing bits are removed. The implicit sign is preserved when no more shifts can take place. 
+operand. The rightmost bits are removed. The implicit sign is preserved when no more shifts can take place. 
 A single shift divides the number by 2, ignoring any remainder.
 ```
 x >> y
